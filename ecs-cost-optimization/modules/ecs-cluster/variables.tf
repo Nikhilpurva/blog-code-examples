@@ -192,7 +192,7 @@ variable "instance_name" {
 variable "name" {
   description = "Name used across the resources created"
   type        = string
-  default     = "marketplace"
+  default     = ""
 }
 
 variable "autoscaling_group_tags" {

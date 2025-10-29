@@ -62,7 +62,7 @@ No requirements.
 | <a name="input_managed_termination_protection_capacity_provider"></a> [managed\_termination\_protection\_capacity\_provider](#input\_managed\_termination\_protection\_capacity\_provider) | managed\_termination\_protection\_capacity\_provider | `string` | `"DISABLED"` | no |
 | <a name="input_maximum_scaling_step_size"></a> [maximum\_scaling\_step\_size](#input\_maximum\_scaling\_step\_size) | Maximum number of step scaling | `number` | `20` | no |
 | <a name="input_minimum_scaling_step_size"></a> [minimum\_scaling\_step\_size](#input\_minimum\_scaling\_step\_size) | Minimum number of step scaling | `number` | `1` | no |
-| <a name="input_name"></a> [name](#input\_name) | Name used across the resources created | `string` | `"marketplace"` | no |
+| <a name="input_name"></a> [name](#input\_name) | Name used across the resources created | `string` | `""` | no |
 | <a name="input_on_demand_capacity_base"></a> [on\_demand\_capacity\_base](#input\_on\_demand\_capacity\_base) | The number of tasks, at a minimum, to run on the on-demand capacity provider. | `number` | `"1"` | no |
 | <a name="input_on_demand_capacity_weight"></a> [on\_demand\_capacity\_weight](#input\_on\_demand\_capacity\_weight) | The relative percentage of the total number of launched tasks that should use the on-demand capacity provider. | `number` | `"100"` | no |
 | <a name="input_on_demand_desired_capacity"></a> [on\_demand\_desired\_capacity](#input\_on\_demand\_desired\_capacity) | Number of desired EC2 in the ASG | `string` | `"1"` | no |
